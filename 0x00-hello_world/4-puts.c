@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * Entry point in c is main
  *
- * Return: Always 0
  */
 int main(void)
 {
