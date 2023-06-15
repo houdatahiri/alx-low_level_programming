@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main is Entry point in c 
+ *main - Entry point in c 
  *
- * return : is 0
+ *Return : 0 (Success)
  */
 int main(void)
 {
