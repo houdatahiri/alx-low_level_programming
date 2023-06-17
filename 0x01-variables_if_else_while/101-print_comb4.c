@@ -18,14 +18,17 @@ int main(void)
 		{
 			for (p = 50; p < 58; p++)
 			{
-				putchar(n);
-				putchar(m);
-				putchar(p);
-				if (n != 55 || m != 56)
+				if (p > m && m > n)
 				{
-					putchar(',');
-					putchar(' ');
-				}
+					putchar(n);
+					putchar(m);
+					putchar(p);
+					if (n != 55 || m != 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}	
 			}
 		}
 	}
