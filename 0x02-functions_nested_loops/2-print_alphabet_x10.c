@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet_x10 - function type void
  *
- * Return: Always 0 (Success)
  */
 
 
@@ -11,6 +10,7 @@ void print_alphabet_x10(void)
 {
 	char ch;
 	int i;
+
 	i = 0;
 	while (i < 10)
 	{
