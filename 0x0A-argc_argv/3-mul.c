@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _atoi - converts a string to an integer
- * @s: string to br converted 
+ * @s: string to br converted
  * Return: the int converted from the string
  */
 int _atoi(char *s)
@@ -43,7 +43,7 @@ int _atoi(char *s)
 /**
  * main - multiplies two numbers
  * @argc: number of arguments
- * argv: array of arguments
+ * @argv: array of arguments
  * Return: 0 (success), 1 (Error)
  */
 
