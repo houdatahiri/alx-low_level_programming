@@ -1,4 +1,4 @@
-#include <stdio.lib>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,8 +7,8 @@
  * @argv: array of arguments
  * Return: always 0 (seccess)
  */
-int main(int argc _attribute_((unused)), char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	prints("%s\n", *argv);
+	printf("%s\n", *argv);
 	return (0);
 }
