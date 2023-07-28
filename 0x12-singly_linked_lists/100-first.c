@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "lists.h"
+#include <stdio.h>
 void first(void) __attribute__ ((constructor));
 /**
  * first - prints a sentence befors the main
