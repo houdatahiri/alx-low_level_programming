@@ -3,6 +3,8 @@
 #include <stdlib.h>
 /**
  * _r - reallocates memory
+ * looped_listint_len - Counts the number of unique nodes
+ * @size: size
  * @list: old list
  * @new: new node
  * Return: pointer
@@ -29,7 +31,7 @@ const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
  * @head: pointer
  * Return: number of nodes
  */
-size_t print_listint_safe(const listint_t*head)
+size_t print_listint_safe(const listint_t *head)
 {
 	size_t i, num = 0;
 	const listint_t **list = NULL;
