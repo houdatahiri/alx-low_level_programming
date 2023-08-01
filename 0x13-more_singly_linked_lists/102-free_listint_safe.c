@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * free_listint_dafe - frees linked list
+ * free_listint_safe - frees linked list
  * @h: pointer
  * Return: number of elemnts
  */
