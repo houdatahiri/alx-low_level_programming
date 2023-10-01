@@ -2,7 +2,7 @@
 int check_pal(char *s, int i, int len);
 int _stlrn_recursion(char *s);
 /**
- * is _palindrome - checks if palindrome
+ * is_palindrome - checks if palindrome
  * @s: string to reverse
  * Return: 1 if it is, 0 it's not
  */
