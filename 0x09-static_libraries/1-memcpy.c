@@ -1,4 +1,4 @@
-#incldue "main.h"
+#include "main.h"
 /**
  * _memcpy - function that copies*
  * @dest: memory
