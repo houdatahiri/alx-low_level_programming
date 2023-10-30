@@ -1,14 +1,16 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 char *create_buffer(char *file);
 void close_file(int fd);
+
 /**
  * create_buffer - allocates
  * @file: name of the file
  * Return: pointer
  */
-char *crate_buffer(char *file)
+char *create_buffer(char *file)
 {
 	char *buffer;
 	buffer = malloc(sizeof(char) * 1024);
