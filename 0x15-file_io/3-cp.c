@@ -13,6 +13,7 @@ void close_file(int fd);
 char *create_buffer(char *file)
 {
 	char *buffer;
+
 	buffer = malloc(sizeof(char) * 1024);
 	if (buffer == NULL)
 	{
@@ -29,15 +30,16 @@ char *create_buffer(char *file)
 void close_file(int fd)
 {
 	int c;
+
 	c = close(fd);
 	if (c == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
-                exit(100);
+		exit(100);
 	}
 }
 /**
- * main: copies the contents
+ * main - copies the contents
  * @argc: copies the contents
  * @argv: array of pointers
  * Return: 0
