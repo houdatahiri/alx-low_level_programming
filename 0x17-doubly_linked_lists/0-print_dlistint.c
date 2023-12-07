@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * orint_dlistint - prints doubly_linked list
+ * print_dlistint - prints doubly_linked list
  * @h: address
  * Return: size of list
  */
