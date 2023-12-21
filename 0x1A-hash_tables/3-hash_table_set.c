@@ -1,6 +1,6 @@
 #include"hash_tables.h"
 /**
- * hash_tables_set - function
+ * hash_table_set - function
  * @ht: pointer
  * @key: key
  * @value: value
